@@ -70,6 +70,14 @@ const menuItems = [
         order_link: "https://www.gyroshero.com/product/hero-burger/52?cp=true&sa=true&sbp=false&q=false"
     },
     {
+        id: "REQ3KOKZMLIO4FARWAHMO4JN",
+        name: "Cheese Burger",
+        category: "Sandwiches",
+        price: 7.99,
+        image_url: "/images/cheese-burger.jpeg",
+        order_link: "https://www.gyroshero.com/product/cheese-burger/53?cp=true&sa=false&sbp=false&q=false&category_id=2"
+    },
+    {
         id: "32WLCC3AFVQ2TK4C2WN45UJS",
         name: "Tender Bun",
         category: "Sandwiches",
@@ -110,6 +118,31 @@ const menuItems = [
         order_link: "https://www.gyroshero.com/product/falafel-plate/4?cp=true&sa=true&sbp=false&q=false"
     },
     {
+        id: "JPDKXVZNDYLRBXXPDKLP4AUF",
+        name: "Tenders",
+        category: "Plates",
+        price: 10.99,
+        image_url: "/images/tenders.jpeg",
+        order_link: "https://www.gyroshero.com/product/tenders/27?cp=true&sa=false&sbp=false&q=false&category_id=3"
+    },
+    {
+        id: "ZXQDN44GPGILXPBHPEEVNXGP",
+        name: "Wings",
+        category: "Plates",
+        price: 10.99,
+        image_url: "/images/wings.jpeg",
+        order_link: "https://www.gyroshero.com/product/wings/29?cp=true&sa=false&sbp=false&q=false&category_id=3"
+    },
+    {
+        id: "47WPTB3YUVXQHVZJ6SB5TDWW",
+        name: "Nuggets",
+        category: "Plates",
+        price: 6.99,
+        image_url: "/images/nuggets.jpeg",
+        order_link: "https://www.gyroshero.com/product/nugets/28?cp=true&sa=false&sbp=false&q=false&category_id=3"
+    },
+    
+    {
         id: "X5QGBQH6FVBJJGQZ2W2SPAQQ",
         name: "Hummus",
         category: "Sides",
@@ -130,8 +163,24 @@ const menuItems = [
         name: "Green Salad",
         price: 4.99,
         image_url: "/images/green-salad.jpeg",
-        order_link: "https://www.gyroshero.com/product/greek-salad",
+        order_link: "https://www.gyroshero.com/product/salad/8?cp=true&sa=false&sbp=false&q=false&category_id=4",
         category: "Sides"
+    },
+    {
+        id: "MCSQNQMK52L2GDMZ6LODBYRE",
+        name: "Turmaric Rice",
+        price: 3.99,
+        image_url: "/images/turmaric-rice.jpeg",
+        order_link: "https://www.gyroshero.com/product/turmaric-rice/12?cp=true&sa=false&sbp=false&q=false&category_id=4",
+        category: "Sides"
+    },
+    {
+        id: "3MZ7SFVAO4UBGZVX47RT7DP5",
+        name: "Baklava",
+        price: 4.99,
+        image_url: "/images/baklava.jpeg",
+        order_link: "https://www.gyroshero.com/product/baklava/11?cp=true&sa=false&sbp=false&q=false&category_id=5",
+        category: "Desserts"
     }
 ];
 
