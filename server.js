@@ -170,7 +170,7 @@ const menuItems = [
         id: "MCSQNQMK52L2GDMZ6LODBYRE",
         name: "Turmaric Rice",
         price: 3.99,
-        image_url: "/images/turmaric-rice.jpeg",
+        image_url: "/images/t-rice.jpeg",
         order_link: "https://www.gyroshero.com/product/turmaric-rice/12?cp=true&sa=false&sbp=false&q=false&category_id=4",
         category: "Sides"
     },
