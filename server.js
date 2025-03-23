@@ -124,6 +124,14 @@ const menuItems = [
         price: 4.99,
         image_url: "/images/crinkle-fries.jpeg",
         order_link: "https://www.gyroshero.com/product/crinkle-fries/10?cp=true&sa=true&sbp=false&q=false"
+    },
+    {
+        id: "HCCG2ZUJSNAPQ6POCFCPQ65N",
+        name: "Green Salad",
+        price: 4.99,
+        image_url: "/images/green-salad.jpeg",
+        order_link: "https://www.gyroshero.com/product/greek-salad",
+        category: "Sides"
     }
 ];
 
