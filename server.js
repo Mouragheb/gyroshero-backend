@@ -58,7 +58,7 @@ const menuItems = [
         name: "Chicken Panini",
         category: "Sandwiches",
         price: 9.99,
-        image_url: "/images/chicken-panini.jpeg",
+        image_url: "/images/chkn-panini.jpeg",
         order_link: "https://www.gyroshero.com/product/chicken-panini/23?cp=true&sa=false&sbp=false&q=false&category_id=2"
     },
     {
