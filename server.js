@@ -3,13 +3,27 @@ const cors = require("cors");
 const path = require("path");
 
 const app = express();
-const PORT = 5050;
+const PORT = process.env.PORT || 5050; // Use Render's dynamic port
 
 app.use(cors());
 app.use(express.json());
 
+
 // Serve images from the 'public' folder in backend
 app.use("/images", express.static(path.join(__dirname, "public/images")));
+
+app.post('/api/contact', (req, res) => {
+    const { name, email, message } = req.body;
+  
+    if (!name || !email || !message) {
+      return res.status(400).json({ error: "All fields are required" });
+    }
+  
+    // For now, just log the data
+    console.log("Contact Form Submission:", { name, email, message });
+  
+    return res.status(200).json({ success: true, message: "Message received!" });
+  });
 
 // 📌 Menu Data with Categories
 const menuItems = [
