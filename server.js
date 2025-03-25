@@ -12,17 +12,44 @@ app.use(express.json());
 // Serve images from the 'public' folder in backend
 app.use("/images", express.static(path.join(__dirname, "public/images")));
 
-app.post('/api/contact', (req, res) => {
-    const { name, email, message } = req.body;
+const nodemailer = require("nodemailer");
+
+// Replace with your actual email and app password (we'll improve security later)
+const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user: "gyrosherotx@gmail.com", // Your Gmail address
+        pass: "wumgkwxjdgnxysnj"     // Your Gmail App Password
+    }
+});
+
+app.post("/api/contact", (req, res) => {
+    const { name, email, phone, message } = req.body;
   
-    if (!name || !email || !message) {
+    if (!name || !email || !phone || !message) {
       return res.status(400).json({ error: "All fields are required" });
     }
   
-    // For now, just log the data
-    console.log("Contact Form Submission:", { name, email, message });
+    const mailOptions = {
+      from: "gyrosherotx@gmail.com",
+      to: "mragheb@gyroshero.com",
+      subject: "New Catering Inquiry from Gyros Hero Website",
+      text: `
+  Name: ${name}
+  Email: ${email}
+  Phone: ${phone}
+  Message: ${message}
+      `,
+    };
   
-    return res.status(200).json({ success: true, message: "Message received!" });
+    transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+        console.error("Error sending email:", error);
+        return res.status(500).json({ error: "Failed to send email" });
+      }
+      console.log("Email sent:", info.response);
+      res.status(200).json({ success: true, message: "Message sent successfully!" });
+    });
   });
 
 // 📌 Menu Data with Categories
