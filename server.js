@@ -182,7 +182,14 @@ const menuItems = [
         image_url: "/images/nuggets.jpeg",
         order_link: "https://www.gyroshero.com/product/nugets/28?cp=true&sa=false&sbp=false&q=false&category_id=3"
     },
-    
+    {
+        id: "E6TBKJXF23MGOYSNM63R4SKM",
+        name: "Family Tray",
+        category: "Plates",
+        price: 49.99,
+        image_url: "/images/family-tray.jpeg",
+        order_link: "https://www.gyroshero.com/product/family-tray/30?cp=true&sa=true&sbp=false&q=false"
+    },
     {
         id: "X5QGBQH6FVBJJGQZ2W2SPAQQ",
         name: "Hummus",
