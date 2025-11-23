@@ -186,7 +186,7 @@ const menuItems = [
         id: "E6TBKJXF23MGOYSNM63R4SKM",
         name: "Family Tray",
         category: "Plates",
-        price: 49.99,
+        price: 69.99,
         image_url: "/images/family-tray.jpeg",
         order_link: "https://www.gyroshero.com/product/family-tray/30?cp=true&sa=true&sbp=false&q=false"
     },
