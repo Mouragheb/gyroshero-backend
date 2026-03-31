@@ -79,6 +79,14 @@ const menuItems = [
         order_link: "https://www.gyroshero.com/product/chicken-shawrma/3?cp=true&sa=true&sbp=false&q=false"
     },
     {
+        id: "L2WBPID63L7WWEDWGP5V2723",
+        name: "Chicken Shawarma Arabi",
+        category: "Sandwiches",
+        price: 12.99,
+        image_url: "https://res.cloudinary.com/dbg5bb6gb/image/upload/v1763931540/stores/6828b73bfbcfa0c4781dd6c4/email-media/b59bnhkpdjhaypcnno1x.jpg",
+        order_link: "https://www.gyroshero.com/product/chicken-shawrma-arabi/OVC2EFUX4YJN6OB2DIKX2YSX?cp=true&sa=true&sbp=false&q=false"
+    },
+    {
         id: "S42WJXHWVHHDTJTTJBV3LOU2",
         name: "Zinger Wrap",
         category: "Sandwiches",
@@ -130,7 +138,7 @@ const menuItems = [
         id: "GFCU32DGMQRKHL7FYMCDLK7Y",
         name: "HERO COMBO PLATE",
         category: "Plates",
-        price: 12.99,
+        price: 5.99,
         image_url: "/images/hero-combo.jpeg",
         order_link: "https://www.gyroshero.com/product/hero-combo-plate/5?cp=true&sa=true&sbp=false&q=false"
     },
@@ -138,7 +146,7 @@ const menuItems = [
         id: "REL3CPZEN5X5VN5HH4MFLWCX",
         name: "GYROS OVER RICE PLATE",
         category: "Plates",
-        price: 11.99,
+        price: 5.99,
         image_url: "/images/gyros-rice.jpeg",
         order_link: "https://www.gyroshero.com/product/gyros-rice/7?cp=true&sa=false&sbp=false&q=false&category_id=3"
     },
@@ -146,7 +154,7 @@ const menuItems = [
         id: "5GVGODTBMB7WBTBGT7CXKWQG",
         name: "CHICKEN OVER RICE PLATE",
         category: "Plates",
-        price: 11.99,
+        price: 5.99,
         image_url: "/images/chicken-rice.jpeg",
         order_link: "https://www.gyroshero.com/product/chicken-over-rice/31?cp=true&sa=false&sbp=false&q=false&category_id=3"
     },
