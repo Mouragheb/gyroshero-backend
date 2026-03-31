@@ -83,7 +83,7 @@ const menuItems = [
         name: "Chicken Shawarma Arabi",
         category: "Sandwiches",
         price: 12.99,
-        image_url: "https://res.cloudinary.com/dbg5bb6gb/image/upload/v1763931540/stores/6828b73bfbcfa0c4781dd6c4/email-media/b59bnhkpdjhaypcnno1x.jpg",
+        image_url: "/images/ChickenArabi.jpg",
         order_link: "https://www.gyroshero.com/product/chicken-shawrma-arabi/OVC2EFUX4YJN6OB2DIKX2YSX?cp=true&sa=true&sbp=false&q=false"
     },
     {
